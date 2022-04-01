@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Lab 5 Ryan Brown</title>
+    <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel = "stylesheet" href= "styles.css"/>
+    <style> 
+        input[type=button], input[type=submit], input[type=reset] {
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+        </style>
+</head>
+<body>
+    
+    <div class = 'columns'>
+        <div class = 'column is-10 is-offset-1'>
+            <div class = 'container'>
+                <div class = 'boxTop'>
+                    <h1>Ryan Brown's Lab 5</h1>
+                </div>
+            </div>
+    </div>
+    
+</div>
+<form action= 'https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json' method = 'get' class = 'columns is-vcentered'>
+    <div class="column is-narrow is-offset-2">
+        <div class = 'box' style='width: 200px'>
+            <div class = 'container'>
+        <h3><b>First Name</b></h3>
+        <input class = outline id = 'first-name' name ='first name' type = 'text'/><br>
+        <h3><b>Food Preference</b></h3>
+        <input class = outline id = 'food' food ='food type' type = 'text'/>
+            </div>
+
+    <fieldset>
+        <div class = 'container'>
+        <h3><b>Veggie or Vegan ?</b></h3>
+        <input type="radio" id="yesButton" name="type" value="Yes"/>
+        <label for="yesButton">Yes</label>
+        <input type="radio" id="noButton" name="type" value="No"/>
+        <label for="noButton">No</label><br>
+    </div>
+    </fieldset>
+
+    <div class ='container'>
+        <input type="submit" value="Submit">
+    </div>
+    </div>
+    </div>
+
+        <div class = 'box'>
+            <h3>This is going to be something in two weeks</h3>
+        </div>
+
+</form>
+<script src="script.js"></script>
+</body>
+
+</html>
